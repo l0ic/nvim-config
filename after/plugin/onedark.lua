@@ -6,6 +6,7 @@ require ("onedark").setup {
     CommentsColor = "#DE987C"
   },
   highlights = {
+    Comment = { fg = "$CommentsColor" },
     ["@comment"] = { fg = "$CommentsColor" }
   }
 }
